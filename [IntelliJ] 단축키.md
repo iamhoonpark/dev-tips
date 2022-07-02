@@ -8,7 +8,8 @@
 ## Editing
 - Ctrl + Space : 자동완성
 - Ctrl + Shift + Space : 소스코드를 분석해서 적합한 자동 완성 코드 추천
-- Ctrl + Shift + Enter : 문장 자동 완성(if문, for문 등)
+- Ctrl + Shift + Enter : 문장 자동 완성(if문, for문, 생성자 세미콜론 자동완성 등)
+- Ctrl + Shift + V : (new Enter() 하고 해당 단축키를 실행 할 경우 바인딩 및 변수 자동완성)
 - Ctrl + P : 메서드 인자 정보 조회
 - Ctrl + W : 커서 근처의 코드 선택 영역 확대
 - Ctrl + Shift + W : 선택 영역 축소
