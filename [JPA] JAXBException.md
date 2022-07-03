@@ -1,8 +1,12 @@
 # JPA 
 ## 에러 제목 : java.lang.NoClassDefFoundError: javax/xml/bind/JAXBException
-2022-06-05
+
 - 프로젝트 환경 : Java11, hibernate
 - JPA 프로젝트 생성 후 간단한 로직 선언 후에 실행 시 발생한 에러
+- 
+Java8 이하에서 잘 돌던 JPA 테스트가 Java11에서 아래와 같이 실패할 때가 있다.
+
+
 ```yml
 6월 05, 2022 4:31:50 오후 org.hibernate.cfg.Environment <clinit>
 INFO: HHH000206: hibernate.properties not found
@@ -31,10 +35,10 @@ JAXB는 Java6 에서 2.0으로 내장되어 있었고 Java9 에서 모듈화 방
 Java 11 버전부턴 삭제가 됨에 따라 아래의 코드를 Maven dependencies root element에 추가하여 해결
 ```yml
 <dependency>
-            <groupId>javax.xml.bind</groupId>
-            <artifactId>jaxb-api</artifactId>
-            <version>2.3.0</version>
-        </dependency>
+    <groupId>javax.xml.bind</groupId>
+    <artifactId>jaxb-api</artifactId>
+    <version>2.3.0</version>
+</dependency>
 ```
 `maven update`, `maven clean`
 
