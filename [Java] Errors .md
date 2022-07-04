@@ -18,3 +18,8 @@ Java: apr100Store has private access in com.posco.pes.s65e04.domain.logic.flow.S
 
 ## [Tips] 조회 구문에서 호출할 때, 값들이 유실될 경우
 - VO 에 컬럼 매핑확인
+
+## [Error] class 패키지명 declares multiple JSON fields named 변수명
+- class com.posco.pes.s65rq1.domain.S65e040111VO declares multiple JSON fields named createdObjectId
+- VO에 중복된 멤버필드가 존재
+- 또는 상속(extends)받은 VO나 entity 객체에 동일한 멤버필드가 존재
