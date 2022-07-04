@@ -12,11 +12,58 @@
 - BeanUtils를 쓰려면 Setter가 반드시 있어야 하는데, HashMap은 Setter가 없고 push를 사용하기 때문에 매핑을 못 시킨다.
 - ModelMapper는 List, Set, Map 등 Java에서 정의해 놓은 구조체를 지원해준다.
 
+### 예제1)
 ```yml
 public HelloJava toDomain() {
     HelloJava retVal = new HelloJava();
     BeanUtils.copyProperties(this, retVal);
     return retVal;
+}
+```
+
+### 예제2)
+```yml
+@Override
+public S65e040211VO register(S65e040211VO s65e040211VO) {
+  try {
+      ModelMapper mm = new ModelMapper();
+      mm.map(s65e040111VO. Men100.class);
+  } catch (Exception e) {
+    e.printStackTrace();
+  }
+}
+```
+
+### 예제3)
+```yml
+@Override
+public S65e040211VO register(S65e040211VO s65e040211VO) {
+  try {
+    Men100 men100 mm = new Men100();
+    BeanUtils.copyProperties(s65e040111VO, men100);
+  } 
+}
+```
+
+### 예제4)
+```yml
+@Override
+public S65e040211VO register(S65e040211VO s65e040211VO) {
+  try {
+    ModelMapper mm = new ModelMapper();
+    mm.map(s65e040111VO. Men100);
+  } 
+}
+```
+
+### 예제5)
+```yml
+@Override
+public S65e040211VO register(S65e040211VO s65e040211VO) {
+  try {
+    Apr100 apr100 = new Apr100();
+    BeanUtils.copyProperties(s65e040211VO.getApr100(), apr100);
+  } 
 }
 ```
 
