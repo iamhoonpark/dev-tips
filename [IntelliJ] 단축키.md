@@ -13,6 +13,7 @@
 - Ctrl + P : 메서드 인자 정보 조회
 - Ctrl + W : 커서 근처의 코드 선택 영역 확대
 - Ctrl + Shift + W : 선택 영역 축소
+- Alt + Shift + I : 세로 편집 기능
 
 ## Navigation
 - Alt + Home : 네비게이션
@@ -26,6 +27,7 @@
 - Alt + →/← : 파일 이동
 - Alt + Shift + ↑/↓ : 한줄 이동
 - Ctrl + Shift + ↑/↓ : 메서드 이동(문법 안 깨짐)
+- F2 : 오류 난 곳으로 커서 이동
 
 ## ETC
 - Ctrl + Alt + O : Import 생성 또는 제거
