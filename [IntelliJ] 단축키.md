@@ -14,6 +14,8 @@
 - Ctrl + W : 커서 근처의 코드 선택 영역 확대
 - Ctrl + Shift + W : 선택 영역 축소
 - Alt + Shift + I : 세로 편집 기능
+- Ctrl + E : 과거 히스토리 열기
+- Ctrl + Alt + M : Refactoring
 
 ## Navigation
 - Alt + Home : 네비게이션
@@ -34,3 +36,7 @@
 - Ctrl + Alt + O : Import 생성 또는 제거
 - Ctrl + Alt + I : 포맷정리
 - Ctrl + Shift + J : 줄 합침
+
+## TEST
+- Ctrl + Shift + T : Test 생성 단축키
+ · Testing Library > JUnit5 > OK
