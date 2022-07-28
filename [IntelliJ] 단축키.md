@@ -17,6 +17,11 @@
 - Ctrl + E : 과거 히스토리 열기
 - Ctrl + Alt + M : Refactoring
 
+## DEBUG
+- soutv : 객체명과 값 출력
+- soutm : 메서드명 출력
+- iter + Tab or Enter : List 또는 배열일 경우 for 문 자동완성
+
 ## Navigation
 - Alt + Home : 네비게이션
  · 이 상태에서 한번 더 Home 누르면 파일 목록
