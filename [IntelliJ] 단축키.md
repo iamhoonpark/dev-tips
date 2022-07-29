@@ -16,6 +16,8 @@
 - Alt + Shift + I : 세로 편집 기능
 - Ctrl + E : 과거 히스토리 열기
 - Ctrl + Alt + M : Refactoring
+- Shift + Enter : (현재 줄 편집 없이)현재 커서 위치 그대로 다음 줄로 Enter
+  · (또는) Ctrl + Shift + Enter : (현재 줄 편집 없이)다음 줄로 Enter
 
 ## DEBUG
 - soutv : 객체명과 값 출력
@@ -24,7 +26,7 @@
 
 ## Navigation
 - Alt + Home : 네비게이션
- · 이 상태에서 한번 더 Home 누르면 파일 목록
+  · 이 상태에서 한번 더 Home 누르면 파일 목록
 - Ctrl + G : 라인으로 이동
 - Ctrl + E : 최근 열어본 파일 목록창 열기
 
@@ -44,4 +46,4 @@
 
 ## TEST
 - Ctrl + Shift + T : Test 생성 단축키
- · Testing Library > JUnit5 > OK
+  · Testing Library > JUnit5 > OK
