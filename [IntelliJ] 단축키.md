@@ -44,6 +44,10 @@
 - Ctrl + Alt + I : 포맷정리
 - Ctrl + Shift + J : 줄 합침
 
+## Editing SQL
+- Ctrl + Alt + L : 라인 자동 정리
+- Ctrl + Enter : SQL 실행
+
 ## TEST
 - Ctrl + Shift + T : Test 생성 단축키
   · Testing Library > JUnit5 > OK
