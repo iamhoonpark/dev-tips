@@ -10,3 +10,21 @@ fn_clickRows = (e) => {
 ```
 
 ### 2. DataGrid 컴포넌트 속성
+```yml
+onGridReady = (dataGrid) => {
+  this.gridApi = dataGrid.api;
+}
+  
+onRowSelected = () => {
+  const data = this.gridApi.getSelectedRows();
+  this.props.mes440Store.setCheckedRows(data);
+}
+
+<DataGrid 
+  columnDefs={columnDefs(params())}
+  rowData={list}
+  onGridReady={this.onGridReady}
+  onRowSelected={this.onRowSelected}
+  rowSelection='multiple'
+/>
+```
