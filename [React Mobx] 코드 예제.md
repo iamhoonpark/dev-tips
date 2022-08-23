@@ -28,3 +28,25 @@ onRowSelected = () => {
   rowSelection='multiple'
 />
 ```
+
+## Html 코드 추가하는 방법
+
+```yml
+async componentDidMount() {
+  const {findPldg} = this.props.mes010Store;
+  findPldg();
+}
+
+render() {
+  
+  const {pldgContent} = this.props.mes010Store;
+  
+  return (
+    <>
+      <p>
+        <div dangerouslySetInnerHTML={{ __html: pldgContent.passPldgContent }}></div>
+      </p>
+    </>
+  )
+}
+```
