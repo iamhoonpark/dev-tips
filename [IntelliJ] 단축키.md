@@ -4,6 +4,7 @@
 - Ctrl + F : 현재 파일에서 문자열 검색
 - Ctrl + Shift + F : 전체 파일에서 문자열 검색
 - Shift * 2 : 전체 검색창 열기
+- Ctrl + Shift + F12 : 작업창 크기 조절
 
 ## Editing
 - Ctrl + Space : 자동완성
