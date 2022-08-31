@@ -18,3 +18,7 @@ Content-type: application/json
   {"companyName": "", "fullName": "", "dateOfBirth":""}
 
 ```
+
+# 3. 작업창 설정
+- 작업창에서 오픈된 파일이 많을 때, 파일 보기 창을 한 줄로 보여줄 것인지 또는 많다면 여러줄로 나누어 보여줄 것인지 설정
+- Settings → Editor → General → Editor Tabs → Appearance → Show tabs in one row
