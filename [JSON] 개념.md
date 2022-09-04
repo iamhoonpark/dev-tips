@@ -9,3 +9,6 @@
 - 이렇게 HTTP를 이요해서 Server 에게 데이터를 요청해서 받아올 수 있는 방법으로는 Ajax를 이용할 수 있다.
 - Asynchronous JavaScript ANd XML.
 - 동적으로 서버에게 데이터를 주고받을 수 있는 기술이다.
+
+추가할 내용 : @FeignClient 동기 끝까지 기다리고 추 후 구문이 실행
+           Ajax는 비동기, 기다리지 않고 다음을 실행하기 때문에 then 구문에서 추후 구문을 사용.
