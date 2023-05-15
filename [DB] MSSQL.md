@@ -1,7 +1,6 @@
 ## WITH (NOLOCK)
 ```
-    SELECT *
-		FROM table_01 WITH (NOLOCK)
+    SELECT * FROM table_01 WITH (NOLOCK)
 ```
 - With (Nolock)을 사용하는 이유: 테이블의 데이터를 업데이트할 경우, 기본적으로 해당 테이블은 잠겨있고 이를 Lock 상태라 함
 - Lock이 걸리는 이유: MSSQL의 기본 격리수준이 Read Committed 이기 때문 즉, 완전히 commit이 된 데이터만 읽으라는 뜻
